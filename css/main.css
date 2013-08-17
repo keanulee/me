@@ -1,0 +1,13 @@
+body {
+
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.social-icon {
+	width: 48px;
+	height: 48px;
+}
