@@ -9,214 +9,440 @@
 
     <!-- Main styling -->
     <link href="css/main.css" rel="stylesheet">
+
+    <!-- Open Sans font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
+    <div class="splash">
+
+      <nav class="navbar" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="container collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="map.html">Where I've Been</a></li>
+            <li class="active"><a href="resume.html">R&eacute;sum&eacute;</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+
     <div class="container">
 
-      <h1>Resume</h1>
+      <!-- <h1 class="hidden-print">R&eacute;sum&eacute;</h1> -->
 
-      <h4 id="skills">Skills Summary</h4>
+      <div class="row resume">
 
-      <ul>
-        <li>Exceptional mathematical and problem-solving skills</li>
-        <li>Self-managed, self-motivated worker</li>
-        <li>Proficient with the UNIX environment and shell programming</li>
-        <li>Familiar with front-end web technologies (HTML, CSS, Javascript, and jQuery)</li>
-        <li>Experience with software development using C++, PHP, ASP.NET with C#, and Ruby on Rails</li>
-        <li>Working knowledge of a variety of database platforms, particularly MS SQL and MySQL</li>
-        <!--<li>Self-studied in Microsoft Office applications</li>
-        <li>Competent speaking skills in Chinese (Cantonese)</li>-->
-        <li>Quick and avid learner; unafraid to ask questions</li>
-      </ul>
+        <div class="col-md-3 col-lg-4">
+          <section>
+            <h2>Keanu Lee</h2>
 
+            <h3 class="subheading nowrap">
+              <small>
+                4A BCS / BBA Candidate<br />
+                University of Waterloo /
+                <wbr />Wilfrid Laurier University
+              </small>
+            </h3>
 
-      <h4 id="work">Work Experience</h4>
+            <div class="social-icons nowrap">
+              <a href="http://keanulee.com/" title="Homepage">
+                <img src="icons/_Misc_Share_02-48.png" />
+                keanulee.com
+              </a>
+              <br />
+              <a href="tel:+14084758939" title="Cell">
+                <img src="icons/Technorati-48.png" />
+                408.475.8939
+              </a>
+              <br />
+              <a href="mailto:keanu@keanulee.com" title="Email">
+                <img src="icons/_Misc_Mail_02-48.png" />
+                keanu@keanulee.com
+              </a>
+              <br />
+              <a href="http://www.linkedin.com/in/keanu" target="_blank" title="LinkedIn Profile">
+                <img src="icons/LinkedIn-48.png" />
+                /in/keanu
+              </a>
+              <br />
+              <a href="https://github.com/keanulee" target="_blank" title="GitHub Profile">
+                <img src="icons/Github-48.png" />
+                /keanulee
+              </a>
+              <br />
+              <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
+                <img src="icons/Facebook-48.png" />
+                /keanulee517
+              </a>
+            </div> <!-- .social-icons -->
 
-      <p><strong>QA Automation Engineer</strong>, 
-      SugarCRM Inc., Cupertino, CA, Jan 2012 - Apr 2012</p>
+            <p>Exceptional mathematical and problem-solving skills</p>
+            <p>Able to work independently and as a team member</p>
+            <!-- <p>Self-managed, self-motivated worker</p> -->
+            <!--<li>Proficient with the UNIX environment and shell programming</li>
+            <li>Familiar with front-end web technologies (HTML, CSS, Javascript, and jQuery)</li>
+            <li>Experience with software development using C++, PHP, ASP.NET with C#, and Ruby on Rails</li>
+            <li>Working knowledge of a variety of database platforms, particularly MS SQL and MySQL</li>
+            <li>Self-studied in Microsoft Office applications</li>
+            <li>Competent speaking skills in Chinese (Cantonese)</li>-->
+            <p>Proven ability to learn quickly; unafraid to ask questions</p>
+          </section>
 
-      <div class="detail">
-      <ul>
-        <li>Designed and implemented a functional test queue system using Ruby on Rails</li>
-        <li>Implemented a new distributed system to improve build performance</li>
-        <li>Reworked exiting build code to remove legacy code and improve efficiency</li>
-        <li>Managed the automated test systems and created new tests as required</li>
-        <li>Utilized Jenkins CI server to schedule and monitor build and test jobs</li>
-        <li>Automated the build, test, and ship process for mobile products</li>
-      </ul>
-      </div>
+          <section>
 
-      <p><strong>Research Assistant (Part-time)</strong>, 
-      Faculty of Mathematics, University of Waterloo, Waterloo, ON, Sept 2011 - Dec 2011</p>
+            <h3>Skills</h3>
 
-      <div class="detail">
-      <ul>
-        <li>Worked under the supervision of Benoit Charbonneau, Assistant Professor at the University of Waterloo</li>
-        <li>Programmed libraries for Maple (CAS software) that would provide these functions to the scientific community</li>
-        <li>Compared the performance of this new algorithm with a prevalent one</li>
-      </ul>
-      </div>
+            Ruby on Rails
+            <div class="skill-5">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
 
-      <p><strong>Technical Analyst</strong>, 
-      Walton International Group Inc., Calgary, AB, May 2011 - Aug 2011</p>
+            PHP
+            <div class="skill-4">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
 
-      <div class="detail">
-      <ul>
-        <li>Developed ASP.NET 4.0 web applications to replace existing Access Forms</li>
-        <li>Created, optimized, and migrated Access databases to SQL 2008 databases</li>
-        <li>Designed reports using Microsoft SQL Server Reporting Services as requested by business end users</li>
-        <li>Ensured compatibility of applications and reports with future ERP system upgrade</li>
-        <li>Assisted company with migration from Microsoft VSS to Microsoft TFS</li>
-      </ul>
-      </div>
+            ASP.NET (C#)
+            <div class="skill-3">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
 
-      <p><strong>I.T. Support Technician</strong>, 
-      Walton International Group Inc., Calgary, AB, July 2010 - Aug 2010</p>
+            HTML / CSS / JS
+            <div class="skill-5">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
+            
+            SQL
+            <div class="skill-4">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
 
-      <div class="detail">
-      <ul>
-        <li>Installed software on employee's desktop from a network</li>
-        <li>Deployed desktops to the office</li>
-        <li>Managed user account on Active Directory</li>
-        <li>Assisted with an office move in Toronto, ON</li>
-        <li>Developed a Microsoft SharePoint site for internal Information Technology department</li>
-      </ul>
-      </div>
+            C / C++
+            <div class="skill-4">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
 
-      <!--<p><strong>Kitchen Prep</span>,
-      Our Lady Queen of Peace Ranch (Southern Alberta) Ltd., Bragg Creek, AB, Summer 2006 - 2007</p>
+            Version Control / Git
+            <div class="skill-4">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
 
-      <div class="detail">
-      <ul>
-      <li>Prepare ingredients, cut vegetables, cook, bake, serve, and clean</li>
-      </ul>
-      </div>-->
+            Windows / Mac / Linux
+            <div class="skill-5">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
+          </section>
+        </div> <!-- .col* -->
 
+        <div class="col-md-9 col-lg-8">
+          <section>
+            <h3>Work Experience</h3>
 
-      <h4 id="education">Education</h4>
+            <h4>Software Engineer</h4>
+            <p>
+              <strong>
+                <a href="http://futureadvisor.com">FutureAdvisor</a>,
+              </strong>
+              San Francisco, CA, Jan 2013 - Apr 2013
+            </p>
 
-      <p><strong>Candidate for Honours Bachelor of Computer Science</strong>, 
-      University of Waterloo, Waterloo, ON, Sept 2010 - Aug 2015 (expected)</p>
+            <ul>
+              <li>Developed on the core Ruby on Rails application, front- and back-end</li>
+              <li>Leveraged DRY languages such as HAML and CoffeeScript</li>
+              <li>Light product development and design work, as needed</li>
+              <li>Performed site traffic analytics using Google Analytics and Mixpanel</li>
+              <li>Created split testing pages using both in-house solutions and Optimizely</li>
+              <li>Using SEC data, analyzed various 401(k) plans and developed informative landing pages</li>
+            </ul>
 
-      <!--<div class="detail">
-      <p><strong>Relevant Assignment:</strong></p>
+            <blockquote>
+              <p>
+                Keanu is an extremely self-motivated software engineer who took on a series of special projects at FutureAdvisor with velocity, gusto, and independently. He worked well with the rest of the engineering team, was open to feedback, and did overall great work. I'd work with Keanu again in a heartbeat.
+              </p>
+              <small>
+                Bo Lu, Co-Founder at FutureAdvisor
+              </small>
+            </blockquote>
 
-      <p><strong>Crisscross Solver</strong>, 
-      Designing Functional Programs, December 2010</p>
-      <ul>
-        <li>Created code for a program that solves a crisscross puzzle</li>
-        <li>Credited with full marks for efficient implementation and thorough test cases</li>
-      </ul>
+            <h4>QA Automation Engineer</h4>
+            <p>
+              <strong>
+                <a href="http://sugarcrm.com">SugarCRM Inc.</a>,
+              </strong>
+              Cupertino, CA, Jan 2012 - Apr 2012
+            </p>
 
-      <p><strong>Relevant Courses:</strong></p>
-      <ul>
-        <li>Designing Functional Programs</li>
-        <li>Elementary Algorithm Design and Data Abstraction</li>
-        <li>Object-Oriented Programming</li>
-        <li>Classical Algebra/Linear Algebra/Calculus/Probability</li>
-      </ul>
-      </div>-->
+            <ul>
+              <li>Designed and implemented a functional test queue system using Ruby on Rails</li>
+              <li>Implemented a new distributed system to improve build performance</li>
+              <li>Reworked exiting build code to remove legacy code and improve efficiency</li>
+              <li>Managed the automated test systems and created new tests as required</li>
+              <li>Utilized Jenkins CI server to schedule and monitor build and test jobs</li>
+              <li>Automated the build, test, and ship process for mobile products</li>
+            </ul>
 
-      <p><strong>Candidate for Honours Bachelor of Business Administration</strong>, 
-      Wilfrid Laurier University, Waterloo, ON, Sept 2010 - Aug 2015 (expected)</p>
+            <blockquote>
+              <p>
+                Keanu is a results driven individual, who can always get the job done. I knew if I assigned a task or project to him, not only would it be completed, he would give it his all. Due dates were consistently met, challenges were overcome and his ideas were greatly appreciated. He has a knack for web based applications, and does his best to keep up to date with new technology trends. Overall he was a pleasure to work with, and I'd love to have a chance to work with him again.
+              </p>
+              <small>
+                Ray Sennewald, Engineering Tools Lead at SugarCRM
+              </small>
+            </blockquote>
 
-      <!--<div class="detail">
-      <p><strong>Relevant Assignment:</strong></p>
+            <h4>Research Assistant (Part-time)</h4>
+            <p>
+              <strong>
+                <a href="http://math.uwaterloo.ca/">Faculty of Mathematics</a>,
+                <a href="http://uwaterloo.ca/">University of Waterloo</a>,
+              </strong>
+              Waterloo, ON, Sept 2011 - Dec 2011
+            </p>
 
-      <p><strong>New Venture Project</strong>, 
-      Introduction to Management and Business Organization, Sept - Dec 2010</p>
-      <ul>
-        <li>Developed a proposal and a report for a conceptual business</li>
-        <li>Analyzed environmental and customer trends to assess the viability of the business</li>
-        <li>Presented project to 30 peers and answered questions</li>
-      </ul>
+            <ul>
+              <li>Worked under the supervision of Benoit Charbonneau, Assistant Professor at the University of Waterloo</li>
+              <li>Programmed libraries for Maple (CAS software) that would provide these functions to the scientific community</li>
+              <li>Compared the performance of this new algorithm with a prevalent one</li>
+            </ul>
 
-      <p><strong>Relevant Courses:</strong></p>
-      <ul>
-        <li>Introduction to Management and Business Organization</li>
-        <li>Functional Areas of the Organization</li>
-        <li>Organization Behaviour</li>
-        <li>Financial Accounting</li>
-      </ul>
-      </div>-->
+            <h4>Technical Analyst</h4>
+            <p>
+              <strong>
+                <a href="http://www.waltoninternational.com">Walton International Group Inc.</a>,
+              </strong>
+              Calgary, AB, May 2011 - Aug 2011
+            </p>
 
-      <p><strong>Alberta High School Diploma</strong>, 
-      Clear Water Academy, Calgary, AB, June 2010</p>
-      <!--<div class="detail">Graduated with Honours</div>-->
+            <ul>
+              <li>Developed ASP.NET 4.0 web applications to replace existing Access Forms</li>
+              <li>Created, optimized, and migrated Access databases to SQL 2008 databases</li>
+              <li>Designed reports using Microsoft SQL Server Reporting Services as requested by business end users</li>
+              <li>Ensured compatibility of applications and reports with future ERP system upgrade</li>
+              <li>Assisted company with migration from Microsoft VSS to Microsoft TFS</li>
+            </ul>
 
+            <blockquote>
+              <p>
+                Keanu showed strong initiative, very good problem solving skills and the ability to work independently.
+              </p>
+              <small>
+                Jesse Albers, Senior Vice President, I.T. at Walton
+              </small>
+            </blockquote>
 
-      <h4 id="volunteer">Volunteer Work</h4>
+            <h4>I.T. Support Technician</h4>
+            <p>
+              <strong>
+                <a href="http://www.waltoninternational.com">Walton International Group Inc.</a>,
+              </strong>
+              Calgary, AB, July 2010 - Aug 2010
+            </p>
 
-      <p><strong>Evening Entertainment Support</strong>, 
-      Wing Kei Nursery Home, Calgary, AB, 2009 - 2010</p>
+            <ul>
+              <li>Installed software on employee's desktop from a network</li>
+              <li>Deployed desktops to the office</li>
+              <li>Managed user account on Active Directory</li>
+              <li>Assisted with an office move in Toronto, ON</li>
+              <li>Developed a Microsoft SharePoint site for internal Information Technology department</li>
+            </ul>
 
-      <div class="detail">
-      <ul>
-        <li>Organize and run evening entertainment activities and exercises</li>
-        <li>Over 20 hours of volunteer work</li>
-      </ul>
-      </div>
+            <!--<p>
+              <strong>Kitchen Prep</span>,
+              Our Lady Queen of Peace Ranch (Southern Alberta) Ltd., Bragg Creek, AB, Summer 2006 - 2007
+            </p>
 
-      <p><strong>Server</strong>, 
-      Calgary Drop-In Centre, Calgary, AB, 2006 - 2008</p>
+            <ul>
+            <li>Prepare ingredients, cut vegetables, cook, bake, serve, and clean</li>
+            </ul>-->
+          </section>
 
-      <div class="detail">
-      <ul>
-        <li>Deliver meals from the kitchen to the table</li>
-        <li>Over 20 hours of volunteer work</li>
-      </ul>
-      </div>
+          <section>
+            <h3>Education</h3>
 
+            <h4>Candidate for Honours Bachelor of Computer Science</h4>
+            <p>
+              <strong>
+                <a href="http://uwaterloo.ca">University of Waterloo</a>,
+              </strong>
+              Waterloo, ON, Sept 2010 - Aug 2015 (expected)
+            </p>
 
-      <h4>Awards</h4>
+            <p>Select Courses:</p>
+            <ul>
+              <li>Object-Oriented Programming</li>
+              <li>Data Structures and Data Management</li>
+              <li>Algorithms</li>
+              <li>Operating Systems</li>
+              <li>User Interfaces</li>
+            </ul>
 
-      <p><strong>President's Scholarship of Distinction - Research Award</strong>, 
-      University of Waterloo, Waterloo, ON, Sept 2011</p>
+            <h4>Candidate for Honours Bachelor of Business Administration, Finance Option</h4>
+            <p>
+              <strong>
+                <a href="http://wlu.ca/">Wilfrid Laurier University</a>,
+              </strong>
+              Waterloo, ON, Sept 2010 - Aug 2015 (expected)</p>
+            
+            <p>Select Courses:</p>
+            <ul>
+              <li>Financial Management</li>
+              <li>Financial Accounting</li>
+              <li>Marketing Management</li>
+              <li>Organizational Behaviour</li>
+            </ul>
 
-      <p><strong>President's Scholarship of Distinction - Entrance Scholarship</strong>, 
-      University of Waterloo, Waterloo, ON, Sept 2010</p>
+            <h4>Alberta High School Diploma</h4>
+            <p>
+              <strong>
+                <a href="http://clearwateracademy.com/">Clear Water Academy</a>,
+              </strong>
+              Calgary, AB, June 2010
+            </p>
+          </section>
 
-      <p><strong>Academic Excellence Scholarship</strong>, 
-      Clear Water Academy, Calgary, AB, June 2010</p>
+          <!-- <section>
+            <h3>Volunteer Work</h3>
 
-      <p><strong>Superior Performance in Mathematics</strong>, 
-      Clear Water Academy, Calgary, AB, June 2010</p>
+            <h4>Evening Entertainment Support</h4>
+            <p>
+              <strong>Wing Kei Nursery Home,</strong>
+              Calgary, AB, 2009 - 2010
+            </p>
 
-      <p><strong>Scholars List</strong>, 
-      Clear Water Academy, Calgary, AB, June 2007 - 2010</p>
+            <ul>
+              <li>Organize and run evening entertainment activities and exercises</li>
+              <li>Over 20 hours of volunteer work</li>
+            </ul>
 
-      <p><strong>Crusader Athletics Award</strong>, 
-      Clear Water Academy, Calgary, AB, June 2008</p>
+            <h4>Server</h4>
+            <p>
+              <strong>Calgary Drop-In Centre,</strong>
+              Calgary, AB, 2006 - 2008
+            </p>
 
+            <ul>
+              <li>Deliver meals from the kitchen to the table</li>
+              <li>Over 20 hours of volunteer work</li>
+            </ul>
+          </section> -->
 
-      <h4>Interests</h4>
+          <section>
+            <h3>Awards</h3>
 
-      <ul>
-        <li>Software Development</li>
-        <li>Web Design</li>
-        <li>Home Automation</li>
-        <li>Technology News and Trends</li>
-        <li>Travel</li>
-        <li>Using Technology to Simplify Everyday Life</li>
-      </ul>
+            <h4>President's Scholarship of Distinction - International Award</h4>
+            <p>
+              <strong>
+                <a href="http://uwaterloo.ca">University of Waterloo</a>,
+              </strong>
+              Waterloo, ON, Sept 2012
+            </p>
 
+            <h4>President's Scholarship of Distinction - Research Award</h4>
+            <p>
+              <strong>
+                <a href="http://uwaterloo.ca">University of Waterloo</a>,
+              </strong>
+              Waterloo, ON, Sept 2011
+            </p>
 
-      <footer>
-        &copy; 2013 Keanu Lee
+            <h4>President's Scholarship of Distinction - Entrance Scholarship</h4>
+            <p>
+              <strong>
+                <a href="http://uwaterloo.ca">University of Waterloo</a>,
+              </strong>
+              Waterloo, ON, Sept 2010
+            </p>
 
-        <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
-          <img class="social-icon" src="icons/Facebook-96.png" />
-        </a>
-        <a href="http://www.linkedin.com/in/keanu" target="_blank" title="LinkedIn Profile">
-          <img class="social-icon" src="icons/LinkedIn-96.png" />
-        <a href="https://github.com/keanulee" target="_blank" title="GitHub Profile">
-          <img class="social-icon" src="icons/Github-96.png" />
-        </a>
-        <a href="mailto:keanu@keanulee.com" title="Email">
-          <img class="social-icon" src="icons/_Misc_Mail_02-96.png" />
-        </a>
-      </footer>
+            <!-- <p>
+              <strong>Academic Excellence Scholarship</strong>, 
+              Clear Water Academy, Calgary, AB, June 2010
+            </p>
+
+            <p>
+              <strong>Superior Performance in Mathematics</strong>, 
+              Clear Water Academy, Calgary, AB, June 2010
+            </p>
+
+            <p>
+              <strong>Scholars List</strong>, 
+              Clear Water Academy, Calgary, AB, June 2007 - 2010
+            </p>
+
+            <p>
+              <strong>Crusader Athletics Award</strong>, 
+              Clear Water Academy, Calgary, AB, June 2008
+            </p> -->
+          </section>
+          <section>
+            <h3>Interests</h3>
+
+            <ul>
+              <li>Software Development</li>
+              <li>Web Design</li>
+              <li>Home Automation</li>
+              <li>Technology News and Trends</li>
+              <li>Travelling</li>
+              <li>Skiing</li>
+            </ul>
+          </section>
+        </div> <!-- .col* -->
+
+      </div> <!-- .row .resume -->
+
+    </div> <!-- .container -->
+
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-8 col-md-9">
+            <p>
+              &copy; 2013 Keanu Lee
+            </p>
+          </div>
+
+          <div class="col-sm-4 col-md-3">
+            <div class="social-icons">
+              <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
+                <img src="icons/Facebook-96.png" />
+              </a>
+              <a href="http://www.linkedin.com/in/keanu" target="_blank" title="LinkedIn Profile">
+                <img src="icons/LinkedIn-96.png" />
+              </a>
+              <a href="https://github.com/keanulee" target="_blank" title="GitHub Profile">
+                <img src="icons/Github-96.png" />
+              </a>
+              <a href="mailto:keanu@keanulee.com" title="Email">
+                <img src="icons/_Misc_Mail_02-96.png" />
+              </a>
+            </div>
+          </div>
+
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+    </footer>
 
     </div> <!-- .container -->
 
@@ -224,8 +450,9 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
     <script src="js/respond.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

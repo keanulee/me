@@ -1,13 +1,269 @@
-body {
-
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.jumbotron {
+.nowrap {
+	white-space: nowrap;
+}
+
+.splash {
+	color: #FFF;
+	background-image: url("../images/background.jpg");
+	background-attachment: fixed;
+}
+
+.splash .navbar {
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+}
+
+.splash .icon-bar {
+	background-color: #FFF;
+}
+
+.splash .navbar-toggle {
+	float: left;
+	margin-left: 15px;
+}
+
+.splash .navbar-toggle:hover {
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.splash .navbar-nav > li > a {
+	color: #FFF;
+	font-weight: 500;
+	padding: 10px 15px;
+}
+
+.splash .navbar-nav > li > a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.splash .navbar-nav > li.active > a {
+	color: #FFF;
+	border-radius: 5px;
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.splash .jumbotron {
 	text-align: center;
 	background-color: transparent;
 }
 
-.social-icon {
+.btn-splash {
+	color: #FFF;
+	font-weight: 600;
+	border-color: #FFF;
+	background-color: transparent;
+}
+
+.feature {
+	border-bottom: 1px solid #CCC;
+}
+
+.projects .thumbnail {
+	margin-bottom: 20px;
+}
+
+.projects .thumbnail img {
+	height: 200px;
+}
+
+.resume a {
+	color: #000;
+}
+
+.resume h2 {
+	margin-top: 72px;
+}
+
+.resume .subheading {
+	margin-top: 0;
+}
+
+.resume .social-icons {
+	margin: 24px 0;
+}
+
+.resume .social-icons img,
+.biz-card .social-icons img {
+	margin-top: 1px;
+	width: 24px;
+	height: 24px;
+}
+
+.resume div[class*='skill-'] {
+	font-size: 0;
+	margin-bottom: 12px;
+}
+
+.resume div[class*='skill-'] .progress-filled,
+.resume div[class*='skill-'] .progress-current {
+	display: inline-block;
+	margin: 0;
+}
+
+.resume .skill-3 .progress-filled {
+	width: 40%;
+	border-bottom: 2px solid #EE6;
+}
+
+.resume .skill-4 .progress-filled {
+	width: 60%;
+	border-bottom: 2px solid #6F6;
+}
+
+.resume .skill-5 .progress-filled {
+	width: 80%;
+	border-bottom: 2px solid #6F6;
+}
+
+.resume div[class*='skill-'] .progress-current {
+	width: 20%;
+}
+
+.resume .skill-3 .progress-current {
+	border-bottom: 2px solid #AA3;
+}
+
+.resume .skill-4 .progress-current,
+.resume .skill-5 .progress-current {
+	border-bottom: 2px solid #090;
+}
+
+.resume section {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 24px;
+}
+
+.resume section h4 {
+	margin: 12px 0 7px;
+}
+
+.biz-card {
+	border-top: 1px solid #999;
+	border-left: 4px solid #999;
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	margin: 40px auto 120px;
+	width: 420px;
+	padding: 48px 20px 20px;
+}
+
+footer {
+	color: #999;
+	background-color: #333;
+}
+
+footer p {
+	margin-top: 17px;
+}
+
+footer .social-icons a {
+	display: inline-block;
+}
+
+footer .social-icons a:hover {
+	text-decoration: none;
+}
+
+footer .social-icons img {
 	width: 48px;
 	height: 48px;
+}
+
+footer .social-icons img:hover {
+	margin-top: -10px;
+}
+
+/***** Desktop and tablets *****/
+@media screen and (min-width: 768px) {
+	.splash .navbar {
+		padding: 20px 0;
+	}
+
+	.splash .jumbotron,
+	.feature {
+		padding: 120px 0;
+	}
+
+	.projects .thumbnail {
+		height: 500px;
+	}
+
+	footer {
+		padding: 60px 0;
+	}
+}
+
+/***** Smartphones *****/
+@media screen and (max-width: 767px) {
+	.splash .navbar {
+		padding: 0;
+	}
+
+	.splash .jumbotron,
+	.feature {
+		padding: 80px 0;
+	}
+
+	.resume h2 {
+		margin-top: 0;
+	}
+
+	.biz-card {
+		border: none;
+		width: auto;
+		padding: 0;
+	}
+
+	footer {
+		padding: 40px 0;
+	}
+}
+
+/***** Print *****/
+@media print {
+	body {
+		font-size: 110%;
+	}
+
+	a:link:after {
+		content: "";
+	}
+
+	.resume h3 {
+		font-size: 18px;
+	}
+
+	.resume h4 {
+		font-size: 14px;
+	}
+
+	.resume section {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+	blockquote {
+		border-top: none;
+		border-right: none;
+		border-bottom: none;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	blockquote p {
+		font-size: 12px;
+	}
+
+	footer {
+		display: none;
+	}
 }

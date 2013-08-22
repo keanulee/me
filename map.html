@@ -9,12 +9,43 @@
 
     <!-- Main styling -->
     <link href="css/main.css" rel="stylesheet">
+
+    <!-- Open Sans font -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
   </head>
   <body>
+
+    <div class="splash">
+
+      <nav class="navbar" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="container collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="active"><a href="map.html">Where I've Been</a></li>
+            <li><a href="resume.html">R&eacute;sum&eacute;</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
 
     <div class="container">
 
       <h1>Where I've Been</h1>
+      <p>
+        These are the countries that I have lived/travelled to. I hope to one day replace this with something cooler built using the Google Maps API.
+      </p>
 
       <iframe src="http://www.whereivebeen.com/map.php?uID=5576352&iID=7qojv683yqdl6m6fy76mrnmn92wujedf" width="640" height="400" scrolling="no" frameborder="0"></iframe>
 
@@ -34,21 +65,38 @@
         <li>Heavenly</li>
       </ul>
 
-      <footer>
-        &copy; 2013 Keanu Lee
+    </div> <!-- .container -->
 
-        <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
-          <img class="social-icon" src="icons/Facebook-96.png" />
-        </a>
-        <a href="http://www.linkedin.com/in/keanu" target="_blank" title="LinkedIn Profile">
-          <img class="social-icon" src="icons/LinkedIn-96.png" />
-        <a href="https://github.com/keanulee" target="_blank" title="GitHub Profile">
-          <img class="social-icon" src="icons/Github-96.png" />
-        </a>
-        <a href="mailto:keanu@keanulee.com" title="Email">
-          <img class="social-icon" src="icons/_Misc_Mail_02-96.png" />
-        </a>
-      </footer>
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-8 col-md-9">
+            <p>
+              &copy; 2013 Keanu Lee
+            </p>
+          </div>
+
+          <div class="col-sm-4 col-md-3">
+            <div class="social-icons">
+              <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
+                <img src="icons/Facebook-96.png" />
+              </a>
+              <a href="http://www.linkedin.com/in/keanu" target="_blank" title="LinkedIn Profile">
+                <img src="icons/LinkedIn-96.png" />
+              </a>
+              <a href="https://github.com/keanulee" target="_blank" title="GitHub Profile">
+                <img src="icons/Github-96.png" />
+              </a>
+              <a href="mailto:keanu@keanulee.com" title="Email">
+                <img src="icons/_Misc_Mail_02-96.png" />
+              </a>
+            </div>
+          </div>
+
+        </div> <!-- .row -->
+      </div> <!-- .container -->
+    </footer>
 
     </div> <!-- .container -->
 
@@ -56,8 +104,9 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-
     <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
     <script src="js/respond.min.js"></script>
+    <script src="js/holder.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
