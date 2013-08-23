@@ -1,0 +1,107 @@
+{
+  "regions": [
+    "CAN/AB",
+    "CAN/BC",
+    "CAN/ON",
+    "CAN/QC",
+    "CHN",
+    "DEU",
+    "DNK",
+    "EST",
+    "FIN",
+    "FRA",
+    "GBR",
+    "GER",
+    "JPN",
+    "MEX",
+    "NLD",
+    "RUS",
+    "THA",
+    "USA/AZ",
+    "USA/CA",
+    "USA/FL",
+    "USA/ID",
+    "USA/MT",
+    "USA/NJ",
+    "USA/NV",
+    "USA/NY",
+    "USA/WA"
+  ],
+  "places": [
+    {
+      "name": "Hong Kong, China",
+      "coordinate": [114.109497, 22.396428],
+      "icon": "images/map-icons/home.png"
+    },
+    {
+      "name": "Calgary, Alberta",
+      "coordinate": [-114.0581012, 51.0453246],
+      "icon": "images/map-icons/home.png"
+    },
+    {
+      "name": "Waterloo, Ontario",
+      "coordinate": [-80.5204096, 43.4642578],
+      "icon": "images/map-icons/school.png"
+    },
+    {
+      "name": "Cupertino, California",
+      "coordinate": [-122.0321823, 37.3229978],
+      "icon": "images/map-icons/work.png"
+    },
+    {
+      "name": "San Francisco, California",
+      "coordinate": [-122.4194155, 37.7749295],
+      "icon": "images/map-icons/work.png"
+    },
+    {
+      "name": "Canada Olympic Park",
+      "coordinate": [-114.221448, 51.082093],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Sunshine Village Ski & Snowboard Resort",
+      "coordinate": [-115.5707694, 51.1783629],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Lake Louise Mountain Resort",
+      "coordinate": [-116.212982, 51.4168949],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Nakiska Resort",
+      "coordinate": [-115.130786, 51.075562],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Mount Norquay",
+      "coordinate": [-115.635, 51.2],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Fernie Alpine Resort",
+      "coordinate": [-115.0807918, 49.4644858],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Panorama Ski Resort",
+      "coordinate": [-116.238466, 50.4583706],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Mount St. Louis Moonstone",
+      "coordinate": [-79.6426631, 44.6308326],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Kirkwood Mountain Resort",
+      "coordinate": [-120.0752179, 38.6933076],
+      "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Heavenly Mountain Resort",
+      "coordinate": [-119.9404779, 38.9348063],
+      "icon": "images/map-icons/ski.png"
+    }
+  ]
+}

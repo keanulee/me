@@ -1,3 +1,12 @@
+body {
+	padding-top: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -9,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .splash {
 	color: #FFF;
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/splash/coast.jpg");
 	background-attachment: fixed;
 }
 
@@ -17,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: transparent;
 	background-color: rgba(0, 0, 0, 0.2);
 	border: none;
+	border-radius: 0;
 }
 
 .splash .icon-bar {
@@ -46,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .splash .navbar-nav > li.active > a {
 	color: #FFF;
-	border-radius: 5px;
 	background-color: #000;
 	background-color: rgba(0, 0, 0, 0.4);
 }
@@ -73,6 +82,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .projects .thumbnail img {
 	height: 200px;
+}
+
+.map {
+	margin-top: -20px;
+	height: 100%;
 }
 
 .resume a {
@@ -184,8 +198,21 @@ footer .social-icons img:hover {
 
 /***** Desktop and tablets *****/
 @media screen and (min-width: 768px) {
+	body {
+		padding-top: 80px;
+	}
+
+	.splash {
+		margin-top: -80px;
+	}
+
 	.splash .navbar {
 		padding: 20px 0;
+	}
+
+	.splash .navbar-nav > li.active > a {
+		color: #FFF;
+		border-radius: 5px;
 	}
 
 	.splash .jumbotron,
@@ -204,6 +231,14 @@ footer .social-icons img:hover {
 
 /***** Smartphones *****/
 @media screen and (max-width: 767px) {
+	body {
+		padding-top: 50px;
+	}
+
+	.splash {
+		margin-top: -50px;
+	}
+
 	.splash .navbar {
 		padding: 0;
 	}
