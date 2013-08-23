@@ -1,30 +1,13 @@
-var geocoder;
-var map;
-
-function loadMap() {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?sensor=true&' +
-      'callback=initializeMap';
-  document.body.appendChild(script);
-}
-
 function initializeMap() {
-  geocoder = new google.maps.Geocoder();
-
   var mapOptions = {
     zoom: 3,
     center: new google.maps.LatLng(45, -100),
     mapTypeId: google.maps.MapTypeId.TERRAIN
   };
 
-  map = new google.maps.Map(document.getElementById('map-canvas'),
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
       mapOptions);
 
-  loadPlaces();
-}
-
-function loadPlaces() {
   $.getJSON('js/places.json', function(data) {
 
     // Each region refers to a geoJSON file that contains polygon data
@@ -71,6 +54,9 @@ function loadPlaces() {
 }
 
 $(document).ready(function() {
-  loadMap();
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = 'https://maps.googleapis.com/maps/api/js?sensor=true&' +
+      'callback=initializeMap';
+  document.body.appendChild(script);
 })
-
