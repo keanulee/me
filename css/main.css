@@ -1,5 +1,4 @@
 body {
-	padding-top: 50px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -79,10 +78,27 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature {
 	border-bottom: 1px solid #CCC;
+	padding: 40px 0;
+	height: 360px;
 }
 
 .feature:first-child {
 	margin-top: -30px;
+}
+
+.feature-image {
+	float: right;
+	width: 360px;
+}
+
+.feature-image img {
+	display: block;
+	margin: 0 auto;
+	height: 280px;
+}
+
+.feature h2 {
+	margin-top: 100px;
 }
 
 .projects .thumbnail {
@@ -228,24 +244,6 @@ footer .social-icons img:hover {
 		padding: 120px 0;
 	}
 
-	.feature {
-		padding: 40px 0;
-		height: 360px;
-	}
-
-	.feature h2 {
-		margin-top: 100px;
-	}
-
-	.feature-image {
-		float: right;
-	}
-
-	.feature-image img {
-		width: 420px;
-		height: 280px;
-	}
-
 	.projects .thumbnail {
 		height: 500px;
 	}
@@ -275,13 +273,20 @@ footer .social-icons img:hover {
 
 	.feature {
 		padding: 20px 0;
+		height: auto;
+	}
+
+	.feature-image {
+		float: none;
+		width: auto;
 	}
 
 	.feature-image img {
-		display: block;
-		margin: 0 auto;
-		width: 300px;
 		height: 200px;
+	}
+
+	.feature h2 {
+		margin-top: 20px;
 	}
 
 	.resume h2 {
@@ -290,6 +295,7 @@ footer .social-icons img:hover {
 
 	.biz-card {
 		border: none;
+		margin-bottom: 40px;
 		width: auto;
 		padding: 0;
 	}
@@ -309,6 +315,16 @@ footer .social-icons img:hover {
 		content: "";
 	}
 
+	.resume .col-md-3 {
+		float: left;
+		width: 25%;
+	}
+
+	.resume .col-md-9 {
+		float: left;
+		width: 75%;
+	}
+
 	.resume h3 {
 		font-size: 18px;
 	}
@@ -320,6 +336,11 @@ footer .social-icons img:hover {
 	.resume section {
 		border-bottom: none;
 		padding-bottom: 0;
+	}
+
+	.biz-card .col-sm-6 {
+		float: left;
+		width: 50%;
 	}
 
 	blockquote {
