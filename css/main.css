@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .splash .navbar-toggle {
 	float: left;
-	margin-left: 15px;
+	margin-left: 12px;
 }
 
 .splash .navbar-toggle:hover {
@@ -72,8 +72,17 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: transparent;
 }
 
+.btn-splash:hover {
+	border-color: #FFF;
+	background-color: #FFF;
+}
+
 .feature {
 	border-bottom: 1px solid #CCC;
+}
+
+.feature:first-child {
+	margin-top: -30px;
 }
 
 .projects .thumbnail {
@@ -215,9 +224,26 @@ footer .social-icons img:hover {
 		border-radius: 5px;
 	}
 
-	.splash .jumbotron,
-	.feature {
+	.splash .jumbotron {
 		padding: 120px 0;
+	}
+
+	.feature {
+		padding: 40px 0;
+		height: 360px;
+	}
+
+	.feature h2 {
+		margin-top: 100px;
+	}
+
+	.feature-image {
+		float: right;
+	}
+
+	.feature-image img {
+		width: 420px;
+		height: 280px;
 	}
 
 	.projects .thumbnail {
@@ -243,9 +269,19 @@ footer .social-icons img:hover {
 		padding: 0;
 	}
 
-	.splash .jumbotron,
+	.splash .jumbotron {
+		padding: 60px 0;
+	}
+
 	.feature {
-		padding: 80px 0;
+		padding: 20px 0;
+	}
+
+	.feature-image img {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+		height: 200px;
 	}
 
 	.resume h2 {
