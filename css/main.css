@@ -17,8 +17,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .splash {
 	color: #FFF;
-	background-image: url("../images/splash/coast.jpg");
-	background-attachment: fixed;
+	background-color: #000;
+	/*background-attachment: fixed;*/
+	background-image: url("../images/splash/reception3.jpg");
+	background-position: right 0px;
+	background-repeat: no-repeat;
+	text-shadow: #666 2px 2px 2px;
 }
 
 .splash .navbar {
@@ -74,6 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-splash:hover {
 	border-color: #FFF;
 	background-color: #FFF;
+	text-shadow: none;
 }
 
 .feature {
@@ -219,6 +224,13 @@ footer .social-icons img {
 
 footer .social-icons img:hover {
 	margin-top: -10px;
+}
+
+/***** Big screens *****/
+@media screen and (min-width: 1440px) {
+	.splash {
+		background-size: cover;
+	}
 }
 
 /***** Desktop and tablets *****/
