@@ -2,53 +2,18 @@
 <html>
   <head>
     <title>R&eacute;sum&eacute; | Keanu Lee</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Main styling -->
-    <link href="css/main.css" rel="stylesheet">
-
-    <!-- Open Sans font -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/html5shiv-printshiv.js"></script>
-    <![endif]-->
+    <?php include 'partials/head.php'; ?>
   </head>
   <body>
 
     <div class="splash">
-
-      <nav class="navbar" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-
-        <div class="container collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href=".">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="map.html">Where I've Been</a></li>
-            <li class="active"><a href="resume.html">R&eacute;sum&eacute;</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-
+      <?php
+      $page = "resume";
+      include 'partials/nav.php';
+      ?>
     </div>
 
     <div class="container">
-
-      <!-- <h1 class="hidden-print">R&eacute;sum&eacute;</h1> -->
 
       <div class="row resume">
 
@@ -421,56 +386,7 @@
 
     </div> <!-- .container -->
 
-    <footer>
-      <div class="container">
-        <div class="row">
+    <?php include 'partials/footer.php'; ?>
 
-          <div class="col-sm-8 col-md-9">
-            <p>
-              &copy; 2013 Keanu Lee
-            </p>
-          </div>
-
-          <div class="col-sm-4 col-md-3">
-            <div class="social-icons">
-              <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
-                <img src="images/social-icons/Facebook-96.png" />
-              </a>
-              <a href="http://www.linkedin.com/in/keanu" target="_blank" title="LinkedIn Profile">
-                <img src="images/social-icons/LinkedIn-96.png" />
-              </a>
-              <a href="https://github.com/keanulee" target="_blank" title="GitHub Profile">
-                <img src="images/social-icons/Github-96.png" />
-              </a>
-              <a href="mailto:me@keanulee.com" title="Email">
-                <img src="images/social-icons/_Misc_Mail_02-96.png" />
-              </a>
-            </div>
-          </div>
-
-        </div> <!-- .row -->
-      </div> <!-- .container -->
-    </footer>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-    <script src="js/respond.min.js"></script>
-    <script src="js/holder.min.js"></script>
-    <script src="js/main.js"></script>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-39573523-1', 'keanulee.com');
-      ga('send', 'pageview');
-
-    </script>
   </body>
 </html>
