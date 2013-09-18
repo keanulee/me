@@ -21,6 +21,27 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
+            <img data-src="holder.js/300x200" alt="Bus Times Screenshot" />
+            <div class="caption">
+              <h3>
+                <a href="https://github.com/keanulee/bus-times-server">
+                  Bus Times for Pebble
+                </a>
+              </h3>
+              <p>
+                <a href="http://bus-times-server.herokuapp.com/">
+                  bus-times-server.herokuapp.com
+                </a>
+              </p>
+              <p>
+                WIP. The idea is to have nearby bus departure times displayed on your <a href="http://getpebble.com">Pebble Watch</a>. I will be using <a href="https://github.com/Katharine/httpebble-watch">httpebble</a>, which provides the web and location access I need. The site is currently optimized as an iOS web application (can be installed on the home screen), and caches static files to reduce load times. A sample response to be provided to the watch can be found <a href="http://bus-times-server.herokuapp.com/watch?lat=43.4712605881556&lon=-80.5333102604187">here</a>.
+              </p>
+            </div> <!-- .caption -->
+          </div> <!-- .thumbnail -->
+        </div> <!-- .col* -->
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
             <img src="images/projects/pinpointcv.jpg" alt="pinpointCV Screenshot" />
             <div class="caption">
               <h3>
