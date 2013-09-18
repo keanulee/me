@@ -144,7 +144,6 @@
             <ul>
               <li>Developed on the core Ruby on Rails application, front- and back-end</li>
               <li>Leveraged DRY languages such as HAML and CoffeeScript</li>
-              <li>Light product development and design work, as needed</li>
               <li>Performed site traffic analytics using Google Analytics and Mixpanel</li>
               <li>Created split testing pages using both in-house solutions and Optimizely</li>
               <li>Using SEC data, analyzed various 401(k) plans and developed informative landing pages</li>
@@ -225,7 +224,7 @@
               </small>
             </blockquote>
 
-            <h4>I.T. Support Technician</h4>
+            <!-- <h4>I.T. Support Technician</h4>
             <p>
               <strong>
                 <a href="http://www.waltoninternational.com">Walton International Group Inc.</a>,
@@ -239,16 +238,16 @@
               <li>Managed user account on Active Directory</li>
               <li>Assisted with an office move in Toronto, ON</li>
               <li>Developed a Microsoft SharePoint site for internal Information Technology department</li>
-            </ul>
+            </ul> -->
 
-            <!--<p>
+            <!-- <p>
               <strong>Kitchen Prep</span>,
               Our Lady Queen of Peace Ranch (Southern Alberta) Ltd., Bragg Creek, AB, Summer 2006 - 2007
             </p>
 
             <ul>
             <li>Prepare ingredients, cut vegetables, cook, bake, serve, and clean</li>
-            </ul>-->
+            </ul> -->
           </section>
 
           <section>
@@ -281,9 +280,9 @@
             <p>Select Courses:</p>
             <ul>
               <li>Financial Management</li>
+              <li>Investment Management</li>
+              <li>Options, Futures, and Swaps</li>
               <li>Financial Accounting</li>
-              <li>Marketing Management</li>
-              <li>Organizational Behaviour</li>
             </ul>
 
             <h4>Alberta High School Diploma</h4>
