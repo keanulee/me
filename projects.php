@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>Projects | Keanu Lee</title>
@@ -21,7 +21,7 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img data-src="holder.js/300x200" alt="Bus Times Screenshot" />
+            <img src="images/projects/bus-times.jpg" alt="Bus Times Screenshot" />
             <div class="caption">
               <h3>
                 <a href="https://github.com/keanulee/bus-times-server">
@@ -29,12 +29,12 @@
                 </a>
               </h3>
               <p>
-                <a href="http://bus-times-server.herokuapp.com/">
-                  bus-times-server.herokuapp.com
+                <a href="http://bus-times-server.keanulee.com/">
+                  bus-times-server.keanulee.com
                 </a>
               </p>
               <p>
-                WIP. The idea is to have nearby bus departure times displayed on your <a href="http://getpebble.com">Pebble Watch</a>. I will be using <a href="https://github.com/Katharine/httpebble-watch">httpebble</a>, which provides the web and location access I need. The site is currently optimized as an iOS web application (can be installed on the home screen), and caches static files to reduce load times. A sample response to be provided to the watch can be found <a href="http://bus-times-server.herokuapp.com/watch?lat=43.4712605881556&lon=-80.5333102604187">here</a>.
+                Get departure times of nearby bus stops on your <a href="http://getpebble.com">Pebble Watch</a>. The app was built on the Pebble SDK 1.12 and uses <a href="https://github.com/Katharine/httpebble-watch">httpebble</a> to access network and location information on the smartphone. The back end web server calculates the closest stops and departure times using imported <a href="https://developers.google.com/transit/gtfs/">GTFS data</a>. It also provides a mobile web application that caches static files to reduce load times.
               </p>
             </div> <!-- .caption -->
           </div> <!-- .thumbnail -->
