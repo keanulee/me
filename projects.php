@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Projects | Keanu Lee</title>
@@ -18,6 +18,27 @@
       <h1>Projects</h1>
 
       <div class="row projects">
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img data-src="holder.js/300x200" alt="Pebble Cards Screenshot" />
+            <div class="caption">
+              <h3>
+                <a href="http://keanulee.com/pebblecards/">
+                  Pebble Cards
+                </a>
+              </h3>
+              <p>
+                <a href="http://keanulee.com/pebblecards/">
+                  keanulee.com/pebblecards
+                </a>
+              </p>
+              <p>
+                Pebble Cards is a Pebble app that acts as a watchface and displays customizable "cards" which contain short but useful tidbits of information. Cards can contain information from an RSS feed, local weather, stocks, and simple notes; more cards will be created in the future. Pebble Cards is built using the <a href="https://developer.getpebble.com/2/">Pebble SDK 2.0</a> and the <a href="https://developer.getpebble.com/2/guides/javascript-guide.html">PebbleKit JavaScript Framework</a>.
+              </p>
+            </div> <!-- .caption -->
+          </div> <!-- .thumbnail -->
+        </div> <!-- .col* -->
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
