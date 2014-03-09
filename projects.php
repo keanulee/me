@@ -21,18 +21,29 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img data-src="holder.js/300x200" alt="Pebble Cards Screenshot" />
+            <img src="images/projects/finance-plus.jpg" alt="Finance Plus Screenshot" />
+            <div class="caption">
+              <h3>
+                <a href="https://chrome.google.com/webstore/detail/finance-plus/fcbbcjibkbckeghnjogklkiojnihjddp">
+                  Finance Plus
+                </a>
+              </h3>
+              <p>
+                Finance Plus is a Chrome extension that enhances the functionality of Google Finance. It adds SVG charts to the portfolio page that includes the amount invested and a <a href="http://en.wikipedia.org/wiki/True_Time-Weighted_Rate_of_Return">true time-weighted</a> portfolio that ignores external cash flows of your investment portfolio. These tools can be used to evaluate the investment strategy, independent of the changes to the amount invested. The SVG charts are powered by <a href="http://www.highcharts.com/products/highstock">Highstock</a>.
+              </p>
+            </div> <!-- .caption -->
+          </div> <!-- .thumbnail -->
+        </div> <!-- .col* -->
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="images/projects/pebblecards.jpg" alt="Pebble Cards Screenshot" />
             <div class="caption">
               <h3>
                 <a href="http://keanulee.com/pebblecards/">
                   Pebble Cards
                 </a>
               </h3>
-              <p>
-                <a href="http://keanulee.com/pebblecards/">
-                  keanulee.com/pebblecards
-                </a>
-              </p>
               <p>
                 Pebble Cards is a Pebble app that acts as a watchface and displays customizable "cards" which contain short but useful tidbits of information. Cards can contain information from an RSS feed, local weather, stocks, and simple notes; more cards will be created in the future. Pebble Cards is built using the <a href="https://developer.getpebble.com/2/">Pebble SDK 2.0</a> and the <a href="https://developer.getpebble.com/2/guides/javascript-guide.html">PebbleKit JavaScript Framework</a>.
               </p>
@@ -42,16 +53,16 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="images/projects/bus-times.jpg" alt="Bus Times Screenshot" />
+            <img src="images/projects/bus-times.jpg" alt="Bus Times for Pebble Screenshot" />
             <div class="caption">
               <h3>
-                <a href="https://github.com/keanulee/bus-times-server">
+                <a href="http://bus-times-server.keanulee.com/">
                   Bus Times for Pebble
                 </a>
               </h3>
               <p>
-                <a href="http://bus-times-server.keanulee.com/">
-                  bus-times-server.keanulee.com
+                <a href="https://github.com/keanulee/bus-times-server">
+                  Source Code
                 </a>
               </p>
               <p>
@@ -66,13 +77,13 @@
             <img src="images/projects/pinpointcv.jpg" alt="pinpointCV Screenshot" />
             <div class="caption">
               <h3>
-                <a href="https://github.com/keanulee/cv-hackathon">
+                <a href="http://www.pinpointcv.com/">
                   pinpointCV
                 </a>
               </h3>
               <p>
-                <a href="http://www.pinpointcv.com/">
-                  pinpointcv.com
+                <a href="https://github.com/keanulee/cv-hackathon">
+                  Source Code
                 </a>
               </p>
               <p>
@@ -87,13 +98,13 @@
             <img src="images/projects/talerts.jpg" alt="Travel Alerts Screenshot" />
             <div class="caption">
               <h3>
-                <a href="https://github.com/keanulee/talerts">
+                <a href="http://keanulee.com/talerts/">
                   Travel Alerts
                 </a>
               </h3>
               <p>
-                <a href="http://keanulee.com/talerts/">
-                  keanulee.com/talerts
+                <a href="https://github.com/keanulee/talerts">
+                  Source Code
                 </a>
                 <br />
                 <a href="http://appworld.blackberry.com/webstore/content/87564/">
@@ -112,13 +123,13 @@
             <img src="images/projects/water.jpg" alt="Water Screenshot" />
             <div class="caption">
               <h3>
-                <a href="https://github.com/keanulee/water">
+                <a href="http://keanulee.com/water-demo/">
                   Water
                 </a>
               </h3>
               <p>
-                <a href="http://keanulee.com/water-demo/">
-                  keanulee.com/water-demo
+                <a href="https://github.com/keanulee/water">
+                  Source Code
                 </a>
               </p>
               <p>
@@ -133,10 +144,13 @@
             <img src="images/projects/sona-notifier.jpg" alt="Sona Notifier" />
             <div class="caption">
               <h3>
-                <a href="https://github.com/keanulee/sona-notifier">
-                  Sona Notifier
-                </a>
+                Sona Notifier
               </h3>
+              <p>
+                <a href="https://github.com/keanulee/sona-notifier">
+                  Source Code
+                </a>
+              </p>
               <p>
                 Sona Notifier is a PHP script that periodically checks an authenticated website for the availability of new research studies on the <a href="http://www.sona-systems.com">Sona web-based human subject pool management software</a>. It would send an email with the list of studies when a new available study was posted.<br /><br /><br />
             </div> <!-- .caption -->
@@ -145,20 +159,20 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="images/projects/ClassScheduleToICS.jpg" alt="ClassScheduleToICS Screenshot" />
+            <img src="images/projects/uw-class-schedule-exporter.jpg" alt="UW Class Schedule Exporter Screenshot" />
             <div class="caption">
               <h3>
-                <a href="https://github.com/keanulee/ClassScheduleToICS">
-                  ClassScheduleToICS
+                <a href="https://chrome.google.com/webstore/detail/uw-class-schedule-exporte/fdblgakcbbgcghehdiainelnhojenfpe">
+                  UW Class Schedule Exporter
                 </a>
               </h3>
               <p>
-                <a href="https://chrome.google.com/webstore/detail/uw-class-schedule-exporte/fdblgakcbbgcghehdiainelnhojenfpe">
-                  Chrome Web Store Listing (UW Class Schedule Exporter)
+                <a href="https://github.com/keanulee/ClassScheduleToICS">
+                  Source Code
                 </a>
               </p>
               <p>
-                ClassScheduleToICS is a Chrome extension that allows you to download an iCalendar file with your class information, including date/time, location, and instructor.  It creates recurring appointments based on the <a href="http://en.wikipedia.org/wiki/ICalendar">ICS format</a>, and this file can be imported to many popular calendar applications such as Outlook and Google Calendar.
+                UW Class Schedule Exporter is a Chrome extension that allows you to download an iCalendar file with your class information, including date/time, location, and instructor.  It creates recurring appointments based on the <a href="http://en.wikipedia.org/wiki/ICalendar">ICS format</a>, and this file can be imported to many popular calendar applications such as Outlook and Google Calendar.
               </p>
             </div> <!-- .caption -->
           </div> <!-- .thumbnail -->
@@ -176,6 +190,24 @@
         </div> <!-- .col* -->
 
       </div> <!-- .row .projects -->
+
+      <hr />
+
+      <h2>Donations</h2>
+      <p>
+        If you would like to show your support for my development work, please consider making a donation.
+      </p>
+
+      <ul>
+        <li>
+          <a href="https://venmo.com/Keanu-Lee">Venmo</a> &dash; preferred, but US only. <a href="https://venmo.com/i/keanu-lee">Sign up with my referral link</a> to show even more support!
+        </li>
+        <li>
+          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=X3FRBC4X6E88N&lc=US&item_name=Keanu%20Lee's%20Development%20Tip%20Jar&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">PayPal</a>
+        </li>
+      </ul>
+
+      <hr />
 
     </div> <!-- .container -->
 
