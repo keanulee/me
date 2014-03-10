@@ -42,12 +42,18 @@ function initializeMap() {
 
     // Each place is a marker
     $.each(data.places, function(index, place) {
-      var coordinate = new google.maps.LatLng(place.coordinate[1], place.coordinate[0])
+      var coordinate = new google.maps.LatLng(place.coordinate[1], place.coordinate[0]);
+      var infowindow = new google.maps.InfoWindow({
+        content: place.name
+      });
       var marker = new google.maps.Marker({
         position: coordinate,
         icon: place.icon,
         map: map,
         title: place.name
+      });
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
       });
     });
   });

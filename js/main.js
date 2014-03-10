@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	$("footer .social-icons a").tooltip();
+  $("footer .social-icons a").tooltip();
 
-	$(window).scroll(function () {
+  $(window).scroll(function () {
     $(".splash").css("background-position", "right " + ($(this).scrollTop() / 2) + "px");
-	});
+  });
 });

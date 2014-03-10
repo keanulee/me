@@ -101,6 +101,11 @@
       "name": "Heavenly Mountain Resort",
       "coordinate": [-119.9404779, 38.9348063],
       "icon": "images/map-icons/ski.png"
+    },
+    {
+      "name": "Whistler Blackcomb",
+      "coordinate": [-122.9486167, 50.1153324],
+      "icon": "images/map-icons/ski.png"
     }
   ]
 }
