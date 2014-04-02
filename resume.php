@@ -23,7 +23,7 @@
 
             <h3 class="subheading">
               <small>
-                4A BCS / BBA Candidate<br />
+                4B BCS / BBA Candidate<br />
                 University of Waterloo /<wbr />
                 <span class="nowrap">
                   Wilfrid Laurier University
@@ -57,27 +57,35 @@
                 /keanulee
               </a>
               <br />
-              <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
+              <!-- <a href="http://www.facebook.com/keanulee517" target="_blank" title="Facebook Timeline">
                 <img src="images/social-icons/Facebook-48.png" />
                 /keanulee517
-              </a>
+              </a> -->
             </div> <!-- .social-icons -->
 
-            <p>Exceptional mathematical and problem-solving skills</p>
+            <p>I am a web developer who enjoys building great user interfaces and learning about web design.</p>
+
+            <!-- <p>Exceptional mathematical and problem-solving skills</p>
             <p>Able to work independently and as a team member</p>
-            <!-- <p>Self-managed, self-motivated worker</p> -->
-            <!--<li>Proficient with the UNIX environment and shell programming</li>
-            <li>Familiar with front-end web technologies (HTML, CSS, Javascript, and jQuery)</li>
-            <li>Experience with software development using C++, PHP, ASP.NET with C#, and Ruby on Rails</li>
-            <li>Working knowledge of a variety of database platforms, particularly MS SQL and MySQL</li>
-            <li>Self-studied in Microsoft Office applications</li>
-            <li>Competent speaking skills in Chinese (Cantonese)</li>-->
-            <p>Proven ability to learn quickly; unafraid to ask questions</p>
+            <p>Self-managed, self-motivated worker</p>
+            <p>Proficient with the UNIX environment and shell programming</p>
+            <p>Famipar with front-end web technologies (HTML, CSS, Javascript, and jQuery)</p>
+            <p>Experience with software development using C++, PHP, ASP.NET with C#, and Ruby on Rails</p>
+            <p>Working knowledge of a variety of database platforms, particularly MS SQL and MySQL</p>
+            <p>Self-studied in Microsoft Office applications</p>
+            <p>Competent speaking skills in Chinese (Cantonese)</p>
+            <p>Proven ability to learn quickly; unafraid to ask questions</p> -->
           </section>
 
           <section>
 
             <h3>Skills</h3>
+
+            HTML / CSS / JS
+            <div class="skill-5">
+              <div class="progress-filled"></div>
+              <div class="progress-current"></div>
+            </div>
 
             Ruby on Rails
             <div class="skill-5">
@@ -91,14 +99,14 @@
               <div class="progress-current"></div>
             </div>
 
-            ASP.NET / C#
+            Java
             <div class="skill-3">
               <div class="progress-filled"></div>
               <div class="progress-current"></div>
             </div>
 
-            HTML / CSS / JS
-            <div class="skill-5">
+            ASP.NET / C#
+            <div class="skill-3">
               <div class="progress-filled"></div>
               <div class="progress-current"></div>
             </div>
@@ -120,18 +128,56 @@
               <div class="progress-filled"></div>
               <div class="progress-current"></div>
             </div>
-
-            Mac / Windows / Linux
-            <div class="skill-5">
-              <div class="progress-filled"></div>
-              <div class="progress-current"></div>
-            </div>
           </section>
         </div> <!-- .col* -->
 
         <div class="col-sm-8 col-md-9 col-lg-8">
           <section>
+            <h3>Current Projects</h3>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/projects/finance-plus.jpg" alt="Finance Plus Screenshot" />
+                <h4>
+                  <a href="https://chrome.google.com/webstore/detail/finance-plus/fcbbcjibkbckeghnjogklkiojnihjddp">
+                    Finance Plus
+                  </a>
+                </h4>
+                <p>
+                  Finance Plus is a Chrome extension that enhances the functionality of Google Finance.
+                </p>
+              </div>
+
+              <div class="col-sm-6">
+                <img src="images/projects/pebblecards.jpg" alt="Pebble Cards Screenshot" />
+                <h4>
+                  <a href="http://keanulee.com/pebblecards/">
+                    Pebble Cards
+                  </a>
+                </h4>
+                <p>
+                  Pebble Cards displays user-customizable information "cards" on your Pebble watch.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section>
             <h3>Work Experience</h3>
+
+            <h4>Software Engineer</h4>
+            <p>
+              <strong>
+                <a href="http://inkling.com">Inkling</a>,
+              </strong>
+              San Francisco, CA, Jan 2014 - Apr 2014
+            </p>
+
+            <ul>
+              <li>Developed on the front-end of Inkling Habitat, a cloud authoring and publishing platform</li>
+              <li>Suggested and prototyped user interface improvements for product managers and designers</li>
+              <li>Coded JavaScript using Backbone.js and tested using Jasmine and Selenium</li>
+            </ul>
 
             <h4>Software Engineer</h4>
             <p>
@@ -143,20 +189,20 @@
 
             <ul>
               <li>Developed on the core Ruby on Rails application, front- and back-end</li>
-              <li>Leveraged DRY languages such as HAML and CoffeeScript</li>
               <li>Performed site traffic analytics using Google Analytics and Mixpanel</li>
               <li>Created split testing pages using both in-house solutions and Optimizely</li>
-              <li>Using SEC data, analyzed various 401(k) plans and developed informative landing pages</li>
+              <!-- <li>Leveraged DRY languages such as HAML and CoffeeScript</li>
+              <li>Using SEC data, analyzed various 401(k) plans and developed informative landing pages</li> -->
             </ul>
 
-            <blockquote>
+            <!-- <blockquote>
               <p>
                 Keanu is an extremely self-motivated software engineer who took on a series of special projects at FutureAdvisor with velocity, gusto, and independently. He worked well with the rest of the engineering team, was open to feedback, and did overall great work. I'd work with Keanu again in a heartbeat.
               </p>
               <small>
                 Bo Lu, Co-Founder at FutureAdvisor
               </small>
-            </blockquote>
+            </blockquote> -->
 
             <h4>QA Automation Engineer</h4>
             <p>
@@ -168,23 +214,23 @@
 
             <ul>
               <li>Designed and implemented a functional test queue system using Ruby on Rails</li>
+              <li>Integrated internal tools with the central Jenkins CI server</li>
               <li>Implemented a new distributed system to improve build performance</li>
-              <li>Reworked exiting build code to remove legacy code and improve efficiency</li>
+              <!-- <li>Reworked exiting build code to remove legacy code and improve efficiency</li>
               <li>Managed the automated test systems and created new tests as required</li>
-              <li>Utilized Jenkins CI server to schedule and monitor build and test jobs</li>
-              <li>Automated the build, test, and ship process for mobile products</li>
+              <li>Automated the build, test, and ship process for mobile products</li> -->
             </ul>
 
-            <blockquote>
+            <!-- <blockquote>
               <p>
                 Keanu is a results driven individual, who can always get the job done. I knew if I assigned a task or project to him, not only would it be completed, he would give it his all. Due dates were consistently met, challenges were overcome and his ideas were greatly appreciated. He has a knack for web based applications, and does his best to keep up to date with new technology trends. Overall he was a pleasure to work with, and I'd love to have a chance to work with him again.
               </p>
               <small>
                 Ray Sennewald, Engineering Tools Lead at SugarCRM
               </small>
-            </blockquote>
+            </blockquote> -->
 
-            <h4>Research Assistant (Part-time)</h4>
+            <!-- <h4>Research Assistant (Part-time)</h4>
             <p>
               <strong>
                 <a href="http://math.uwaterloo.ca/">Faculty of Mathematics</a>,
@@ -197,7 +243,7 @@
               <li>Worked under the supervision of Benoit Charbonneau, Assistant Professor at the University of Waterloo</li>
               <li>Programmed libraries for Maple (CAS software) that would provide these functions to the scientific community</li>
               <li>Compared the performance of this new algorithm with a prevalent one</li>
-            </ul>
+            </ul> -->
 
             <h4>Technical Analyst</h4>
             <p>
@@ -210,19 +256,19 @@
             <ul>
               <li>Developed ASP.NET 4.0 web applications to replace existing Access Forms</li>
               <li>Created, optimized, and migrated Access databases to SQL 2008 databases</li>
-              <li>Designed reports using Microsoft SQL Server Reporting Services as requested by business end users</li>
-              <li>Ensured compatibility of applications and reports with future ERP system upgrade</li>
-              <li>Assisted company with migration from Microsoft VSS to Microsoft TFS</li>
+              <li>Designed reports using Microsoft SQL Server Reporting Services as needed by business users</li>
+              <!-- <li>Ensured compatibility of applications and reports with future ERP system upgrade</li>
+              <li>Assisted company with migration from Microsoft VSS to Microsoft TFS</li> -->
             </ul>
 
-            <blockquote>
+            <!-- <blockquote>
               <p>
                 Keanu showed strong initiative, very good problem solving skills and the ability to work independently.
               </p>
               <small>
                 Jesse Albers, Senior Vice President, I.T. at Walton
               </small>
-            </blockquote>
+            </blockquote> -->
 
             <!-- <h4>I.T. Support Technician</h4>
             <p>
@@ -261,29 +307,30 @@
               Waterloo, ON, Sept 2010 - Aug 2015 (expected)
             </p>
 
-            <p>Select Courses:</p>
+            <!-- <p>Select Courses:</p>
             <ul>
               <li>Object-Oriented Programming</li>
               <li>Data Structures and Data Management</li>
               <li>Algorithms</li>
               <li>Operating Systems</li>
               <li>User Interfaces</li>
-            </ul>
+            </ul> -->
 
             <h4>Candidate for Honours Bachelor of Business Administration, Finance Option</h4>
             <p>
               <strong>
                 <a href="http://wlu.ca/">Wilfrid Laurier University</a>,
               </strong>
-              Waterloo, ON, Sept 2010 - Aug 2015 (expected)</p>
+              Waterloo, ON, Sept 2010 - Aug 2015 (expected)
+            </p>
             
-            <p>Select Courses:</p>
+            <!-- <p>Select Courses:</p>
             <ul>
               <li>Financial Management</li>
               <li>Investment Management</li>
               <li>Options, Futures, and Swaps</li>
               <li>Financial Accounting</li>
-            </ul>
+            </ul> -->
 
             <h4>Alberta High School Diploma</h4>
             <p>
@@ -367,17 +414,53 @@
               Clear Water Academy, Calgary, AB, June 2008
             </p> -->
           </section>
+
+          <section>
+            <h3>Recommendations</h3>
+
+            <blockquote>
+              <p>
+                Keanu is an extremely self-motivated software engineer who took on a series of special projects at FutureAdvisor with velocity, gusto, and independently. He worked well with the rest of the engineering team, was open to feedback, and did overall great work. I'd work with Keanu again in a heartbeat.
+              </p>
+              <small>
+                Bo Lu, Co-Founder at FutureAdvisor
+              </small>
+            </blockquote>
+
+            <blockquote>
+              <p>
+                Keanu is a results driven individual, who can always get the job done. I knew if I assigned a task or project to him, not only would it be completed, he would give it his all. Due dates were consistently met, challenges were overcome and his ideas were greatly appreciated. He has a knack for web based applications, and does his best to keep up to date with new technology trends. Overall he was a pleasure to work with, and I'd love to have a chance to work with him again.
+              </p>
+              <small>
+                Ray Sennewald, Engineering Tools Lead at SugarCRM
+              </small>
+            </blockquote>
+
+            <blockquote>
+              <p>
+                Keanu showed strong initiative, very good problem solving skills and the ability to work independently.
+              </p>
+              <small>
+                Jesse Albers, Senior Vice President, I.T. at Walton
+              </small>
+            </blockquote>
+          </section>
+
           <section>
             <h3>Interests</h3>
 
-            <ul>
+            <p>
+              When I am not coding, I like to rock climb indoors, hike the great outdoors, drive around on road trips, travel to places around the world, and above all else, go skiing down some slopes.
+            </p>
+
+            <!-- <ul>
               <li>Software Development</li>
               <li>Web Design</li>
               <li>Home Automation</li>
               <li>Technology News and Trends</li>
               <li>Travelling</li>
               <li>Skiing</li>
-            </ul>
+            </ul> -->
           </section>
         </div> <!-- .col* -->
 

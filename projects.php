@@ -193,22 +193,6 @@
 
       <hr />
 
-      <h2>Donations</h2>
-      <p>
-        If you would like to show your support for my development work, please consider making a donation.
-      </p>
-
-      <ul>
-        <li>
-          <a href="https://venmo.com/Keanu-Lee">Venmo</a> &dash; preferred, but US only. <a href="https://venmo.com/i/keanu-lee">Sign up with my referral link</a> to show even more support!
-        </li>
-        <li>
-          <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=X3FRBC4X6E88N&lc=US&item_name=Keanu%20Lee's%20Development%20Tip%20Jar&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">PayPal</a>
-        </li>
-      </ul>
-
-      <hr />
-
     </div> <!-- .container -->
 
     <?php include 'partials/footer.php'; ?>
