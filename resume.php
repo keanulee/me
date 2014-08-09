@@ -450,7 +450,7 @@
             <h3>Interests</h3>
 
             <p>
-              When I am not coding, I like to rock climb indoors, hike the great outdoors, drive around on road trips, travel to places around the world, and above all else, go skiing down some slopes.
+              When I am not coding, I enjoy rock climbing, hiking, driving on road trips, travelling, and above all else, skiing.
             </p>
 
             <!-- <ul>
