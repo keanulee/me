@@ -32,7 +32,7 @@
             </h3>
 
             <div class="social-icons nowrap">
-              <a href="http://keanulee.com/" title="Homepage">
+              <a href="https://keanulee.com/" title="Homepage">
                 <img src="images/social-icons/_Misc_Share_02-48.png" />
                 keanulee.com
               </a>
@@ -151,7 +151,7 @@
               <div class="col-sm-6">
                 <img src="images/projects/pebblecards.jpg" alt="Pebble Cards Screenshot" />
                 <h4>
-                  <a href="http://keanulee.com/pebblecards/">
+                  <a href="https://keanulee.com/pebblecards/">
                     Pebble Cards
                   </a>
                 </h4>

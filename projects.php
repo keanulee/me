@@ -40,7 +40,7 @@
             <img src="images/projects/pebblecards.jpg" alt="Pebble Cards Screenshot" />
             <div class="caption">
               <h3>
-                <a href="http://keanulee.com/pebblecards/">
+                <a href="https://keanulee.com/pebblecards/">
                   Pebble Cards
                 </a>
               </h3>
@@ -98,7 +98,7 @@
             <img src="images/projects/talerts.jpg" alt="Travel Alerts Screenshot" />
             <div class="caption">
               <h3>
-                <a href="http://keanulee.com/talerts/">
+                <a href="https://keanulee.com/talerts/">
                   Travel Alerts
                 </a>
               </h3>
@@ -123,7 +123,7 @@
             <img src="images/projects/water.jpg" alt="Water Screenshot" />
             <div class="caption">
               <h3>
-                <a href="http://keanulee.com/water-demo/">
+                <a href="https://keanulee.com/water-demo/">
                   Water
                 </a>
               </h3>

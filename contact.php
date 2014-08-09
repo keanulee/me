@@ -27,7 +27,7 @@
 
         <div class="row social-icons">
           <div class="col-sm-6">
-            <a href="http://keanulee.com/" title="Homepage">
+            <a href="https://keanulee.com/" title="Homepage">
               <img src="images/social-icons/_Misc_Share_02-48.png" />
               keanulee.com
             </a>
