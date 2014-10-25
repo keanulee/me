@@ -132,7 +132,7 @@
         </div> <!-- .col* -->
 
         <div class="col-sm-8 col-md-9 col-lg-8">
-          <section>
+          <!-- <section>
             <h3>Current Projects</h3>
 
             <div class="row">
@@ -160,10 +160,25 @@
                 </p>
               </div>
             </div>
-          </section>
+          </section> -->
 
           <section>
             <h3>Work Experience</h3>
+
+            <h4>Software Engineer</h4>
+            <p>
+              <strong>
+                <a href="http://google.com">Google</a>,
+              </strong>
+              San Francisco, CA, Sept 2014 - Dec 2014
+            </p>
+
+            <ul>
+              <li>Created new Polymer elements to demonstrate how to build web applications with Polymer and Web Components</li>
+              <li>Implemented features and bug fixes for Polymer's &lt;paper-*> elements</li>
+              <li>Authored blog posts describing Polymer methodologies and best practices</li>
+              <li>Created a cross-browser compatible and GPU-accelerated version of &lt;paper-spinner></li>
+            </ul>
 
             <h4>Software Engineer</h4>
             <p>
